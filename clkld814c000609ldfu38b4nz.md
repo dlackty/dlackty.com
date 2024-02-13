@@ -19,7 +19,7 @@ CloudSQL 官方推薦兩種方式做遠端連線：
 2. 透過 CloudSQL Proxy 來做連線
     
 
-由於在我本次的環境當中主機的 IP 並不固定，所以使用後者的作法。然而多數 CloudSQL Proxy 的教學，包含官方都是使用 Kubernetes（應該一點都意外？），但卻沒有使用 ECS 的範例。
+由於在我本次的環境當中主機的 IP 並不固定，所以使用後者的作法。然而多數 CloudSQL Proxy 的教學，包含官方都是使用 Kubernetes（應該一點都不意外？），但卻沒有使用 ECS 的範例。
 
 ## CloudSQL Proxy 在 ECS 上的設定
 
